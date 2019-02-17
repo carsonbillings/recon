@@ -3,17 +3,11 @@ layout: default
 ---
   <div class="clearfix">
     <div class="col col-8">
-      <h2>Serving the Greater Fresno area</h2>
-      <p>We are proud to provide home inspections to the Greater Fresno area, including foothill and mountain
-      communities such as Coarsegold, Prather, and Squaw Valley. With more than 14 years of experience managing, maintaining, and appraising properties in
-      the Fresno area, it is our goal to exceed all of your home inspection expectations. We use state-of-the-art
-      equipment to examine your home from top to bottom and from the inside out.</p>
-      <p>Because real estate transactions often happen very fast and rely on quick home inspections,
-      we are available for inspections at your convenience (including weekends and holidays). When
-      you are ready to purchase a new home, let Recon Home Inspectors help you complete a speedy transaction.</p>
+      {{ content }}
     </div>
+
     <div class="col col-4 px3 center">
-      {%- for badge in site.badges -%}
+      {%- for badge in page.badges -%}
         {%- if badge.href -%}
           <a class="badge-link" href="{{ badge.href }}">
         {%- endif -%}
@@ -28,10 +22,11 @@ layout: default
     </div>
   </div>
 </div><!-- .wrapper -->
+
 <div class="clearfix contrast-section">
   <div class="wrapper">
-      <h2>Contact us</h2>
-      <p>Have a question or want to schedule an inspection? Send us a note!</h2>
+      <h2>{{ page.contact.headline }}</h2>
+      <p>{{ page.contact.text }}</p>
       <form action="https://formspree.io/cbillings@reconhomeinspectors.com" method="POST">
         <label for="name">
           Name
