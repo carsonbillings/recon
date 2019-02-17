@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  font-family: "Noto Serif SC", serif;
+  color: #342D2B;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Bungee", Arial, sans-serif;
+  color: #625550;
+}
+
+p {
+  font-size: 18px;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #625550;
+}
+
+.logo {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.logo img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.logo h1 {
+  color: #F35827;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.logo h1 span {
+  display: block;
+  font-size: 21px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.badge {
+  width: 80%;
+}
+
+.badge-link {
+  display: inline-block;
+}
+
+.paragraph-small {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.contrast-section {
+  padding: 20px;
+  background-color: #F8F5F3;
+  border-top: 2px solid #F35827;
+}
+
+input,
+textarea {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #978D89;
+  font-size: 18px;
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: #F35827;
+  border-color: #B33F1B;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+input[type="submit"]:focus {
+  background-color: #B33F1B;
+}
+
+/* Minima overrides */
+
+.site-header {
+  border-top-color: #625550;
+  border-bottom-color: #F8F5F3;
+}
