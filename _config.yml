@@ -33,8 +33,9 @@ footer-links:
     text: InterNACHI Code of Ethics
 
 footer-info:
-  - text: "Business license #439687"
   - text: "InterNACHI membership #NACHI19012525"
+  - text: "ICA Certification #10936"
+  - text: "Business license #439687"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
