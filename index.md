@@ -18,6 +18,9 @@ trainings:
   - img: /assets/roofinspector.png
     text: Something here about roof inspections
     slug: roof-inspector
+  - img: /assets/roofinspector.png
+    text: Something here about roof inspections
+    slug: roof-inspector
 ---
 ## Serving the Greater Fresno area
 
