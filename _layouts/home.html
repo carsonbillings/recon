@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="wrapper">
   <div class="clearfix">
     <div class="col col-8">
       {{ content }}
@@ -18,35 +19,25 @@ layout: default
         {%- endif -%}
       {%- endfor -%}
     </div>
-
-    </div>
   </div>
 </div><!-- .wrapper -->
 
-<div class="clearfix contrast-section">
+<div class="clearfix contrast-section mt3">
   <div class="wrapper">
-      <h2>{{ page.contact.headline }}</h2>
-      <p>{{ page.contact.text }}</p>
-      <form action="https://formspree.io/cbillings@reconhomeinspectors.com" method="POST">
-        <label for="name">
-          Name
-        </label>
-        <input type="text" name="name">
-
-        <label for="_replyto">
-          Email address
-        </label>
-        <input type="email" name="_replyto">
-
-        <label for="phone">
-          Phone number
-        </label>
-        <input type="tel" name="phone">
-        <label for="msg">
-          Your message
-        </label>
-        <textarea name="msg" rows="10"></textarea>
-
-        <input type="submit" value="Send message">
-      </form>
+  {%- include contact.html -%}
   </div>
+</div>
+
+<div class="wrapper mt4">
+  {%- if page.trainings.length | modulo: 2 == 0 -%}
+    {%- assign cols="col-6" -%}
+  {%- else -%}
+    {%- assign cols="col-4" -%}
+  {%- endif -%}
+  {%- for training in page.trainings -%}
+  <div class="col {{ cols }} training {{ training.slug }}">
+    <img src="{{ training.img }}" alt="{{ training.text }}"/>
+    <p>{{ training.text }}</p>
+  </div>
+  {%- endfor -%}
+</div>

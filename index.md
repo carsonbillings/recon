@@ -14,6 +14,10 @@ badges:
 contact:
   headline: Contact us
   text: Have a question or want to schedule an inspection? Send us a note!
+trainings:
+  - img: /assets/roofinspector.png
+    text: Something here about roof inspections
+    slug: roof-inspector
 ---
 ## Serving the Greater Fresno area
 

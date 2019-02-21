@@ -1,0 +1,25 @@
+      <h2>{{ page.contact.headline }}</h2>
+      <p>{{ page.contact.text }}</p>
+      <form action="https://formspree.io/cbillings@reconhomeinspectors.com" method="POST">
+        <label for="name">
+          Name
+        </label>
+        <input type="text" name="name">
+
+        <label for="_replyto">
+          Email address
+        </label>
+        <input type="email" name="_replyto">
+
+        <label for="phone">
+          Phone number
+        </label>
+        <input type="tel" name="phone">
+        <label for="msg">
+          Your message
+        </label>
+        <textarea name="msg" rows="10"></textarea>
+
+        <input type="submit" value="Send message">
+      </form>
+
