@@ -18,7 +18,7 @@ An inspection of the home from top to bottom, including:
 - Structure (including foundation)
 - Electrical, plumbing, ventilation and HVAC systems
 - Insulation and vapor barriers
-- Interior
+- Interior (including walls and fixtures)
 - Flooring
 
 **Please note the following are not included in a home inspection: Sewer systems, wells, septic tanks, solar systems**
