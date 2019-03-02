@@ -14,7 +14,7 @@ badges:
     text: Learn more about my $10,000 honor guarantee
 contact:
   headline: Contact us
-  text: Have a question or want to schedule an inspection? Send us a note! <br />For a free quote, please include the address and square footage of the building, plus any additional structures.
+  text: Have a question or want to schedule an inspection? Send us a note! <br />For a free quote, please include the address and square footage of the main building, plus any additional features to be inspected.
 trainings:
   - img: /assets/roofinspector.png
     text: Something here about roof inspections
