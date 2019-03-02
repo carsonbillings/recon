@@ -17,7 +17,7 @@ title: Recon Home Inspectors
 author: Carson Billings, owner
 description: >- # this means to ignore newlines until "baseurl:"
   Recon Home Inspectors serves the greater Fresno area, including foothill and mountain communities.
-baseurl: "/recon" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
