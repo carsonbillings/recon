@@ -38,7 +38,7 @@ layout: default
   {%- for training in page.trainings -%}
     <div class="col {{ cols }} px2">
       <div class="training {{ training.slug }}">
-        <img src="{{ training.img | relative_url }}" alt="{{ training.text }}"/>
+        <img src="{{ training.img | relative_url }}?{{site.time | date: '%s%N'}}" alt="{{ training.text }}"/>
         <p>{{ training.text }}</p>
       </div>
     </div>
