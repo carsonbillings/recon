@@ -17,11 +17,9 @@ contact:
   text: Have a question or want to schedule an inspection? Send us a note! <br />For a free quote, please include the address and square footage of the main building, plus any additional features to be inspected.
 trainings:
   - img: /assets/roofinspector.png
-    text: Something here about roof inspections
+    text: Verifies completion of 55 hours of training on the inspection of roofing and roofing systems
     slug: roof-inspector
-  - img: /assets/roofinspector.png
-    text: Something here about roof inspections
-    slug: roof-inspector
+
 ---
 ## Serving the Greater Fresno area
 
