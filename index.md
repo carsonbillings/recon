@@ -10,17 +10,14 @@ badges:
     text: Verify my InterNATCHI membership
   - img: https://www.nachi.org/webseals/internachi-honor-guarantee.png?nachiid=NACHI19012525
     alt: Ten thousand dollar honor guarantee backed by International Association of Certified Home Inspectors
-    href: https://www.nachi.org/verify.php?nachiid=NACHI19012525
+    href: https://www.nachi.org/honor.htm
     text: Learn more about my $10,000 honor guarantee
 contact:
   headline: Contact us
-  text: Have a question or want to schedule an inspection? Send us a note! <br />For a free quote, please include the address and square footage of the building, plus any additional structures.
+  text: Have a question or want to schedule an inspection? Send us a note! <br />For a free quote, please include the address and square footage of the main building, plus any additional features to be inspected.
 trainings:
   - img: /assets/roofinspector.png
-    text: Something here about roof inspections
-    slug: roof-inspector
-  - img: /assets/roofinspector.png
-    text: Something here about roof inspections
+    text: Verifies completion of 55 hours of training on the inspection of roofing and roofing systems
     slug: roof-inspector
 ---
 ## Serving the Greater Fresno area
