@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 badges:
   - img: /assets/ica-logo1.png
     alt: Certified member of Inspection Certification Associates

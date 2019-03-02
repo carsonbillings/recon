@@ -29,15 +29,19 @@ layout: default
 </div>
 
 <div class="wrapper mt4">
+  <div class="mxn2">
   {%- if page.trainings.length | modulo: 2 == 0 -%}
     {%- assign cols="col-6" -%}
   {%- else -%}
     {%- assign cols="col-4" -%}
   {%- endif -%}
   {%- for training in page.trainings -%}
-  <div class="col {{ cols }} training {{ training.slug | relative_url }}">
-    <img src="{{ training.img }}" alt="{{ training.text }}"/>
-    <p>{{ training.text }}</p>
-  </div>
+    <div class="col {{ cols }} px2">
+      <div class="training {{ training.slug }}">
+        <img src="{{ training.img | relative_url }}" alt="{{ training.text }}"/>
+        <p>{{ training.text }}</p>
+      </div>
+    </div>
   {%- endfor -%}
+  </div>
 </div>
