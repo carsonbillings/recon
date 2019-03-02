@@ -10,7 +10,7 @@ badges:
     text: Verify my InterNATCHI membership
   - img: https://www.nachi.org/webseals/internachi-honor-guarantee.png?nachiid=NACHI19012525
     alt: Ten thousand dollar honor guarantee backed by International Association of Certified Home Inspectors
-    href: https://www.nachi.org/verify.php?nachiid=NACHI19012525
+    href: https://www.nachi.org/honor.htm
     text: Learn more about my $10,000 honor guarantee
 contact:
   headline: Contact us
