@@ -1,5 +1,6 @@
       <h2>{{ page.contact.headline }}</h2>
       <p>{{ page.contact.text }}</p>
+      <p><small>* required for a free quote</small></p>
       <form action="https://formspree.io/cbillings@reconhomeinspectors.com" method="POST">
         <label for="name">
           Name
@@ -12,9 +13,25 @@
         <input type="email" name="_replyto">
 
         <label for="phone">
-          Phone number
+          *Phone number
         </label>
         <input type="tel" name="phone">
+
+        <label for="address">
+          *Property address
+        </label>
+        <input type="text" name="address">
+
+        <label for="sqft">
+          *Property square footage
+        </label>
+        <input type="number" name="sqft">
+
+        <label for="addtional">
+          *Additional structures to be inspected (pools, outbuildings)
+        </label>
+        <input type="text" name="additional">
+
         <label for="msg">
           Your message
         </label>
