@@ -21,3 +21,4 @@ An inspection of the home from top to bottom, including:
 
 **Please note the following are not included in a home inspection: Sewer systems, wells, septic tanks, solar systems**
 
+Before scheduling an inspection please [view our inspection terms and conditions.](assets\ReconHomeInspectorsPreInspectionAgreementSAMPLE.pdf)
