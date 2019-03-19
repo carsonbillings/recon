@@ -19,7 +19,6 @@ trainings:
   - img: /assets/roofinspector.png
     text: Verifies completion of 55 hours of training on the inspection of roofing and roofing systems
     slug: roof-inspector
-
   - img: /assets/electricalinspector.png
     text: Verifies completion of 30 hours of training on the inspection of electrical systems and components
     slug: electrical-inspector
