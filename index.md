@@ -22,6 +22,9 @@ trainings:
   - img: /assets/electricalinspector.png
     text: Verifies completion of 30 hours of training on the inspection of electrical systems and components
     slug: electrical-inspector
+  - img: /assets/structureandfoundationinspector.png
+    text: Verifies completion of 30 hours of training on the inspection of structural elements and foundation systems
+    slug: structureandfoundation-inspector
 ---
 ## Serving the Greater Fresno area
 
