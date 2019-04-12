@@ -19,6 +19,6 @@ An inspection of the home from top to bottom, including:
 - Interior (including walls and fixtures)
 - Flooring
 
-**Please note the following are not included in a home inspection: Sewer systems, wells, septic tanks, solar systems**
+*Please note the following are not included in a home inspection: Sewer systems, wells, septic tanks, solar systems*
 
 Before scheduling an inspection please [view our inspection terms and conditions.](assets\ReconHomeInspectorsPreInspectionAgreementSAMPLE.pdf)
