@@ -1,8 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Bungee|Noto+Serif+SC" rel="stylesheet">
-<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
-<link rel="stylesheet" href="{{ "/assets/css/recon.css" | relative_url }}?{{site.time | date: '%s%N'}}">
 <header class="site-header">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -14,15 +10,22 @@
     </a>
   </div>
 
-    {%- if titles_size > 0 -%}
-      <nav class="site-nav">
+    <nav class="site-nav">
+      {%- if titles_size > 0 -%}
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
           <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {%- endif -%}
         {%- endfor -%}
-      </nav>
-    {%- endif -%}
+      {%- endif -%}
+      <ul class="social-links">
+        <li>
+          <a href="https://www.instagram.com/reconhomeinspectors/" title="Visit Recon on Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

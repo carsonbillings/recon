@@ -1,12 +1,16 @@
+$text-color: #342D2B;
+$brand-color: #F35827;
+$text-color-gray: #625550;
+
 body {
   font-size: 16px;
   font-family: "Noto Serif SC", serif;
-  color: #342D2B;
+  color: $text-color;
 }
 
 h1, h2, h3, h4 {
   font-family: "Bungee", Arial, sans-serif;
-  color: #625550;
+  color: $text-color-gray;
 }
 
 p {
@@ -24,7 +28,7 @@ label {
   font-family: Arial, sans-serif;
   font-weight: bold;
   margin-top: 10px;
-  color: #625550;
+  color: $text-color-gray;
 }
 
 .logo {
@@ -40,7 +44,7 @@ label {
 }
 
 .logo h1 {
-  color: #F35827;
+  color: $brand-color;
   font-size: 60px;
   line-height: 1;
 }
@@ -52,6 +56,15 @@ label {
 
 .logo a {
   text-decoration: none;
+}
+
+.social-links {
+  font-size: 30px;
+  float: right;
+  li {
+    list-style: none;
+    display: inline-block;
+  }
 }
 
 .badge {
@@ -72,7 +85,7 @@ label {
 .contrast-section {
   padding: 20px;
   background-color: #F8F5F3;
-  border-top: 2px solid #F35827;
+  border-top: 2px solid $brand-color;
 }
 
 input,
@@ -90,7 +103,7 @@ textarea {
 
 input[type="submit"] {
   display: block;
-  background-color: #F35827;
+  background-color: $brand-color;
   border-color: #B33F1B;
   color: white;
   font-weight: bold;
@@ -144,6 +157,6 @@ input[type="submit"]:focus {
 /* Minima overrides */
 
 .site-header {
-  border-top-color: #625550;
+  border-top-color: $text-color-gray;
   border-bottom-color: #F8F5F3;
 }
