@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="236px" viewBox="0 0 800 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>black rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="black-rectangle">
+            <rect id="Rectangle" fill="#F35827" x="0" y="0" width="275" height="236"></rect>
+            <g id="noun_House_9062-Copy" transform="translate(22.000000, 13.000000)" fill="#FFFFFF">
+                <path d="M167.46859,18.5741188 L52.8964696,0 L0,80.5393965 L0,89.235234 L11.8785556,92.7230857 L11.8595118,171.96346 L126.505427,212 L213.414081,183.726037 L213.423603,88.0789612 L229.032358,92.7040524 L236,85.566566 L167.46859,18.5741188 Z M119.466371,19.8945537 L140.481178,23.2515515 L140.481178,45.8845209 L127.488562,69.0361476 C127.488562,65.5411584 127.488562,38.02139 127.488562,29.994097 L108.511438,26.7988822 L119.466371,19.8945537 Z M204.93484,176.146027 L183.496308,182.933776 L183.496308,120.090588 L156.77789,128.458101 L156.77789,191.712885 L129.778576,200.537197 L129.807141,112.341657 L122.853783,125.871952 L51.7490821,104.668859 L51.7490821,95.5828386 L117.954771,115.320368 L164.983377,30.0773677 L204.961025,69.2074472 L204.93484,176.146027 Z" id="Shape" fill-rule="nonzero"></path>
+                <polygon id="Rectangle-3" points="154 126.933427 183.801909 119 185 182.725487 154 193"></polygon>
+            </g>
+            <rect id="Rectangle" stroke="#F35827" stroke-width="7" x="271.5" y="3.5" width="525" height="229"></rect>
+            <text id="RECON" font-family="Bungee-Regular, Bungee" font-size="140" font-weight="normal" fill="#F35827">
+                <tspan x="288" y="133">RECON</tspan>
+            </text>
+            <text id="HOME-INSPECTORS" font-family="Bungee-Regular, Bungee" font-size="48" font-weight="normal" fill="#F35827">
+                <tspan x="294" y="205">HOME INSPECTORS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
